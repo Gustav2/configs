@@ -259,8 +259,8 @@ if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
 export PATH=/home/gustav/.local/bin:$PATH
-alias vol2='vol.py'
-alias vol3='vol'
+alias vol2='python2 ~/tools/volatility2/vol.py'
+alias vol3='python ~/tools/volatility3/vol.py'
 # ctf-tools: gem install
 export PATH=$PATH:/home/gustav/.local/share/gem/ruby/3.0.0/bin
 alias stegsolve='java -jar ~/tools/bin/stegsolve.jar'
